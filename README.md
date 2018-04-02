@@ -19,8 +19,8 @@ MomentJs - for parsing the "Last Updates" timestamp.<br />
 
 ##### COMPONENTS OF CODE
 Besides the general angular4 application architecture, the application consists of two services files viz.
-websocket.service.ts - for connecting & subscribing to the any websocket in general.
-medianetsocket.service.ts - utilizing the "websocket.service.ts" for connecting & subscribing to the media.net websocket in specific.
+* websocket.service.ts - for connecting & subscribing to the any websocket in general.
+* medianetsocket.service.ts - utilizing the "websocket.service.ts" for connecting & subscribing to the media.net websocket in specific.
 
 The media.net socket is connected & subscribed onInit in the "app.component.ts" file, the response is parsed when invoked.
 
@@ -29,8 +29,8 @@ The parsing logic is a simple 20 line code that loops through the websocket resp
 The source data is parsed using standard javascript methods alongwith lodash's functions to generate an array of objecThe "computeStats()" method in the app.component.ts file is a non-essential method used to display the statistics boxes.
 
 ##### HOW TO RUN
-Clone/Download the git repo<br />
-Load the node_modules by running the "npm install" command<br />
-Execute "ng serve" to start the application on your local machine and navigate to "http://localhost:4200/"<br />
+* Clone/Download the git repo<br />
+* Load the node_modules by running the "npm install" command<br />
+* Execute "ng serve" to start the application on your local machine and navigate to "http://localhost:4200/"<br />
 
 _Refer https://sagarsrivastava.in/terriblytinytales for working solution & more details._
