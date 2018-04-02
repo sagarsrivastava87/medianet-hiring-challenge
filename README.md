@@ -9,13 +9,13 @@ _Refer http://careers.media.net/hiring-challenge/frontend-developers/ for comple
 ![alt text](/solution-screenshot.png)
 
 ##### TECHNOLOGY STACK USED
-UI/Frontend - Angular4, HTML, CSS, Bootstrap<br />
-Hosting Server - DigitalOcean Cloud<br />
-Server Architecture - Angular4 Application bundled inside a NodeJs/Express application running on a NodeJs Server interfaced via Nginx reverse proxy.<br />
+* UI/Frontend - Angular4, HTML, CSS, Bootstrap<br />
+* Hosting Server - DigitalOcean Cloud<br />
+* Server Architecture - Angular4 Application bundled inside a NodeJs/Express application running on a NodeJs Server interfaced via Nginx reverse proxy.<br />
 
 ##### LIBRARIES/MIDDLEWARES USED
-Rx/Js - for socket connection & subscription.<br />
-MomentJs - for parsing the "Last Updates" timestamp.<br />
+* Rx/Js - for socket connection & subscription.<br />
+* MomentJs - for parsing the "Last Updates" timestamp.<br />
 
 ##### COMPONENTS OF CODE
 Besides the general angular4 application architecture, the application consists of two services files viz.
