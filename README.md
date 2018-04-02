@@ -1,27 +1,27 @@
-# Terriblytinytales
+## Media.Net Frontend Developer Hiring Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
+## TerriblyTinyTales- Software Developer Application Challenge
+**Please refer https://sagarsrivastava.in/medianet for details & working solution**
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+##### TECHNOLOGY STACK USED
+UI/Frontend - Angular4, HTML, CSS, Bootstrap<br />
+Hosting Server - DigitalOcean Cloud<br />
+Server Architecture - Angular4 Application bundled inside a NodeJs/Express application running on a NodeJs Server interfaced via Nginx reverse proxy.<br />
 
-## Code scaffolding
+##### LIBRARIES/MIDDLEWARES USED
+Rx/Js - for socket connection & subscription.<br />
+MomentJs - for parsing the "Last Updates" timestamp.<br />
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##### COMPONENTS OF CODE
+Besides the general angular4 application architecture, the application consists of two services files viz.
+websocket.service.ts - for connecting & subscribing to the any websocket in general.
+medianetsocket.service.ts - utilizing the "websocket.service.ts" for connecting & subscribing to the media.net websocket in specific.
 
-## Build
+The media.net socket is connected & subscribed onInit in the "app.component.ts" file, the response is parsed when invoked.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+The parsing logic is a simple 20 line code that loops through the websocket response, taking each array of stock one by one and updates its status and value in the "stockList" object. This object is used to render the required table on the html. 
 
-## Running unit tests
+The source data is parsed using standard javascript methods alongwith lodash's functions to generate an array of objecThe "computeStats()" method in the app.component.ts file is a non-essential method used to display the statistics boxes.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_Refer https://sagarsrivastava.in/terriblytinytales for working solution & more details._
