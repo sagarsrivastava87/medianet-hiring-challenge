@@ -1,6 +1,4 @@
 ## Media.Net Frontend Developer Hiring Challenge
-
-## TerriblyTinyTales- Software Developer Application Challenge
 **Please refer https://sagarsrivastava.in/medianet for details & working solution**
 
 
