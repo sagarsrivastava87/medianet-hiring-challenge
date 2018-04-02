@@ -1,6 +1,11 @@
 ## Media.Net Frontend Developer Hiring Challenge
 **Please refer https://sagarsrivastava.in/medianet for details & working solution**
 
+##### ABOUT THE CHALLENGE
+Write a “single page application” (SPA) to display live stock data. The page should look something like this. 
+P.S: Feel free to showcase your creativity!<br />
+_Refer http://careers.media.net/hiring-challenge/frontend-developers/ for complete details about the challenge._
+
 ![alt text](/solution-screenshot.png)
 
 ##### TECHNOLOGY STACK USED
