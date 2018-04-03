@@ -1,6 +1,6 @@
 ## Media.Net Frontend Developer Hiring Challenge
-Please refer **https://sagarsrivastava.in/medianet** for details & working solution
-Github-Pages: **https://sagarsrivastava87.github.io/medianet-hiring-challenge/**
+Please refer **https://sagarsrivastava.in/medianet** for details & working solution<br />
+Github-Pages: **https://sagarsrivastava87.github.io/medianet-hiring-challenge/**<br />
 _NOTE: The media.net websoctket is not deployed on a secured link and hence the solution hosted on the above https links work only upon allowing the insecure content. Please click the "Load unsafe scripts" from the address bar of the url to do so._
 
 Alternatively you may also access the working demo from **http://infrings.in/dev/medianet/** which is loads directly.
