@@ -10,6 +10,7 @@ Write a “single page application” (SPA) to display live stock data. The page
 P.S: Feel free to showcase your creativity!<br />
 _Refer http://careers.media.net/hiring-challenge/frontend-developers/ for complete details about the challenge._
 
+##### THE SOLUTION
 ![alt text](/solution-screenshot.png)
 
 ##### TECHNOLOGY STACK USED
