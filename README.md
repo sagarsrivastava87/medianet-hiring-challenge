@@ -1,5 +1,9 @@
 ## Media.Net Frontend Developer Hiring Challenge
-**Please refer https://sagarsrivastava.in/medianet for details & working solution**
+Please refer **https://sagarsrivastava.in/medianet** for details & working solution
+Github-Pages: **https://sagarsrivastava87.github.io/medianet-hiring-challenge/**
+_NOTE: The media.net websoctket is not deployed on a secured link and hence the solution hosted on the above https links work only upon allowing the insecure content. Please click the "Load unsafe scripts" from the address bar of the url to do so._
+
+Alternatively you may also access the working demo from **http://infrings.in/dev/medianet/** which is loads directly.
 
 ##### ABOUT THE CHALLENGE
 Write a “single page application” (SPA) to display live stock data. The page should look something like this. 
@@ -11,7 +15,7 @@ _Refer http://careers.media.net/hiring-challenge/frontend-developers/ for comple
 ##### TECHNOLOGY STACK USED
 * UI/Frontend - Angular4, HTML, CSS, Bootstrap<br />
 * Hosting Server - DigitalOcean Cloud<br />
-* Server Architecture - Angular4 Application bundled inside a NodeJs/Express application running on a NodeJs Server interfaced via Nginx reverse proxy.<br />
+* Server Architecture (for sagarsrivastava.in) - Angular4 Application bundled inside a NodeJs/Express application running on a NodeJs Server interfaced via Nginx reverse proxy.<br />
 
 ##### LIBRARIES/MIDDLEWARES USED
 * Rx/Js - for socket connection & subscription.<br />
@@ -33,4 +37,4 @@ The source data is parsed using standard javascript methods alongwith lodash's f
 * Load the node_modules by running the "npm install" command<br />
 * Execute "ng serve" to start the application on your local machine and navigate to "http://localhost:4200/"<br />
 
-_Refer https://sagarsrivastava.in/terriblytinytales for working solution & more details._
+_Please visit https://sagarsrivastava.in/ for to download my resume & view my complete profile.Thank you._
